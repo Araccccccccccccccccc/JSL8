@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Class Static Methods</h2>
+    <p id="r1"></p>
+    <script>
+        class Person{
+            constructor(n){
+                this.name=n;}
+                static intro(obj){
+                    return "Welcome " + obj.name;
+                }
+            }
+                objectperson=new Person("Aryaveer");
+                document.getElementById("r1").innerHTML=Person.intro(objectperson);
+            
+
+        
+    </script>
+</body>
+</html>
